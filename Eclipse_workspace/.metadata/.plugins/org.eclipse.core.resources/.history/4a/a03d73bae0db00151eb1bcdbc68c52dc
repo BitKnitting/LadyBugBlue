@@ -1,0 +1,17 @@
+
+
+with open('LadybugBlue.kicad_pcb', 'r') as layoutfile:
+    with open('LadybugBlue_new.kicad_pcb','w') as newlayoutfile:
+        newTextSizeLine =  '  (effects (font (size 1.27 1.016) (thickness 0.2032)))\n'
+        for line in layoutfile:
+            newline = line
+            # Hide the component's value (in text)
+            if "fp_text value" in line:
+                if "hide" not in newline:
+                    newline = newline.rstrip('\n')
+                    newline += ' hide\n'
+            newlayoutfile.write(newline) 
+            # Change the component's reference to a standard size i defined above.
+            if 'fp_text reference' in line:
+                layoutfile.readline()
+                newlayoutfile.write(newTextSizeLine)    

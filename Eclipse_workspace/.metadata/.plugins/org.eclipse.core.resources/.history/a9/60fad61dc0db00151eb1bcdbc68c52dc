@@ -1,0 +1,10 @@
+
+import sys
+import fileinput
+
+
+for i, line in enumerate(fileinput.input('LadybugBlue.kicad_pcb', inplace=1)):
+    if "fp_text value" in line:
+        if "hide" not in line:
+            newline = line + " hide"
+            sys.stdout.write(line.replace(line,newline))

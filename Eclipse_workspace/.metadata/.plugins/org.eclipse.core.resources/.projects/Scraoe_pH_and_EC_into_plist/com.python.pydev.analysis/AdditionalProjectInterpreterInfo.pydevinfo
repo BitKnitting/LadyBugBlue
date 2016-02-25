@@ -1,0 +1,23 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/margaret/Documents/LettuceBuddyHW/LadyBugHydro/LadybugBlue/Eclipse_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Scraoe_pH_and_EC_into_plist/com.python.pydev.analysis/v2_indexcache
+Scrape_pH_and_EC_into_plist|1454436884000000000|/Users/margaret/Documents/EHAL/ARM/Nordic/nRF51/Scraoe_pH_and_EC_into_plist/Scrape_pH_and_EC_into_plist.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=Scrape_pH_and_EC_into_plist
+-- END DICTIONARY
+-- START TREE 1
+8
+col|1|cols!11@
+get|1|getValue!10@
+htm|1|html!11@
+res|1|response!11@
+row|1|rows!11@
+sou|1|soup!11@
+tab|2|table_body!11@table!11@
+url|1|urls!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

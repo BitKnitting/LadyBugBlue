@@ -1,0 +1,10 @@
+
+
+with open('LadybugBlue.kicad_pcb', 'r') as layoutfile:
+    with open('LadybugBlue_new.kicad_pcb','w') as newlayoutfile:
+        for line in enumerate(layoutfile):
+            newline = line + '\n'
+            if "fp_text value" in line:
+                if "hide" not in line:
+                    newline = line + ' hide' + '\n'
+            newlayoutfile.write(str(newline))        

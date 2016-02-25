@@ -1,0 +1,20 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/margaret/Documents/LettuceBuddyHW/LadyBugHydro/LadybugBlue/Eclipse_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/GetIncludePaths/com.python.pydev.analysis/v2_indexcache
+GetIncludePaths|1447154924000000000|/Users/margaret/Documents/EHAL/ARM/Nordic/nRF51/GetIncludePaths/GetIncludePaths.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=GetIncludePaths
+-- END DICTIONARY
+-- START TREE 1
+5
+cre|1|createlist!10@
+inc|1|include_list!11@
+nex|1|nextword!10@
+pat|2|path_to_SDK!11@path_to_main!11@
+pri|1|print_include_file_paths!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
